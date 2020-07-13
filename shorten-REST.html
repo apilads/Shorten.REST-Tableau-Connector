@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <script
+      src="https://connectors.tableau.com/libs/tableauwdc-2.3.latest.js"
+      type="text/javascript"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Shorten.REST</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Allow Tableau to access your Shorten.REST account?</h1>
+      <form class="form">
+        <p class="field">API key<span class="req"> (required)</span></p>
+        <p class="desc">
+          Create a free API key at
+          <a href="https://app.shorten.rest">https://app.shorten.rest</a>.
+          First, you need to create an account and then you can copy the API key
+          from the settings tab.
+        </p>
+        <input type="text" name="api-key" id="authorise-Input" />
+        <p class="warning-msg" id="required-field">
+          The API key field is required.
+        </p>
+        <p class="warning-msg" id="failed">
+          Authorisation failed, please be sure to use a valid API key.
+        </p>
+        <div class="Button">
+          <input type="submit" value="Authorise" id="auth-Button" />
+          <input type="submit" value="Get Clicks" id="data-Button" />
+        </div>
+      </form>
+    </div>
+    <script src="/shorten-REST.js" type="text/javascript"></script>
+  </body>
+</html>
