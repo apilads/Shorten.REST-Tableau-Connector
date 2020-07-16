@@ -10,7 +10,7 @@ Shorten.REST connector supports two types of data refreshes, first one is Full r
 ### Acceess the Shorten.REST Connector
 You should be able to access the Shorten.REST Connector via this url https://tableau.shorten.rest/ in Tableau Desktop Application.
 
-
+### More Info
 for more informtaion about how to use the connector please read this post https://shorten.rest/introducing-shorten-rest-tableau-connector/
 
 
